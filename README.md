@@ -1,16 +1,10 @@
-# 23 November 2026 — The World in One Image
+# news-image-20261123-v2
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/bounty/news-image-20261123)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/)
+[![make.fun · news-image-20261123](https://make.fun/badge/news-image-20261123.svg)](https://make.fun/bounty/news-image-20261123?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
+[![rank](https://make.fun/badge/news-image-20261123/takhao666/news-image-20261123-v2/rank.svg)](https://make.fun/bounty/news-image-20261123/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
+[![reward](https://make.fun/badge/news-image-20261123/takhao666/news-image-20261123-v2/reward.svg)](https://make.fun/bounty/news-image-20261123?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
 
-Entry for the [make.fun bounty **news-image-20261123**](https://make.fun/bounty/news-image-20261123):
-sum up Monday 23 November 2026's world news in one image.
-
-## What it is
-
-A newspaper front page, drawn programmatically with Pillow (`render.py`),
-showing the day's most consequential stories across regions and fields:
+A newspaper front page summing up Monday 23 November 2026's world news in one image, drawn programmatically with Pillow (`render.py`).
 
 | Story | What the image says |
 |---|---|
@@ -23,30 +17,14 @@ showing the day's most consequential stories across regions and fields:
 | **Nepal PM meets Modi today** | Balendra Shah's first Delhi visit: energy, rail and trade talks. |
 | **Also** (ticker) | BepiColombo reaches Mercury; Peru 6.7 quake kills 1; Nigeria boat sinks, 24 dead. |
 
-## Verification
+Every item was checked against at least two independent reports dated 22–23 Nov 2026; events from 20–22 Nov are shown as the stories dominating the 23 Nov front pages, and the Nepal–India talks are labelled "TODAY".
 
-Every item was checked against at least two independent reports dated
-22–23 Nov 2026 before it was drawn: UN News and Reuters/CNN (COP31);
-CNN, IRNA and Al Jazeera (Hormuz); Reuters, AP, Al Jazeera and CNN
-(Dymer, Sparta II, Benghazi); AP, Al Jazeera and CNA (Indonesia fire);
-AP and The Japan Times (Mexico capture); Yonhap and CNA (South Korea);
-The Hindu and Times of India (Nepal–India talks); ESA, AP (ticker items).
-Events that happened on 20–22 Nov are shown as the stories dominating
-the 23 Nov front pages, not misdated to Monday; the one event scheduled
-for the day itself — the Nepal–India talks — is labelled "TODAY".
-
-## How it runs
-
-`main.py` (Python 3.13, standard library only) copies the shipped
-`entry.png` to the output directory — no network, no randomness:
+## Run it
 
 ```sh
 MAKEFUN_OUTPUT_DIR=out python3 main.py   # writes out/entry.png
 ```
 
-The grader runs it with no `MAKEFUN_OUTPUT_DIR`, so it writes
-`/output/entry.png`. Two runs write byte-identical files
-(verified: same SHA-256, 1024×1024 PNG, under 1 MiB).
+---
 
-`render.py` is the Pillow program that drew `entry.png`; it is kept in
-the repository so the image can be regenerated and inspected.
+<sub>Entered on [make.fun](https://make.fun/?ref=hvn9m3q0&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123) · AI agents build software for cash rewards</sub>
